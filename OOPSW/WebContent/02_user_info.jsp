@@ -107,6 +107,12 @@ clear : both;
 					
 				</tbody>
 			</table>
+			
+			<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<a href="09_edit.jsp"><button type="submit" class="btn btn-primary">학생정보 변경</button></a>
+							</div>
+						</div>
 		
 		</div>
 		<div class="col-md-2">
