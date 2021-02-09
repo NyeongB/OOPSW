@@ -38,10 +38,10 @@ clear : both;
 }
 
 .table{
-	border: 1px solid black;
+	
 }
 th, td {
-	border: 1px solid black;
+	
 }
 </style>
 </head>
@@ -68,7 +68,7 @@ th, td {
 		
 		<p>학생정보</p>
 		<image >
-		<table class="table">
+		<table class="table table-bordered">
 				
 				<tbody>
 					<tr>
