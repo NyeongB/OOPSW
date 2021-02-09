@@ -29,12 +29,19 @@ header nav ul li {
 	display: inline;
 	float: left;
 	font-size : 40px;
-	padding-right: 130px;
+	padding-right: 20px;
 	font-weight: bold;
 }
 
 hr {
 clear : both;
+}
+
+.table{
+	border: 1px solid black;
+}
+th, td {
+	border: 1px solid black;
 }
 </style>
 </head>
@@ -60,6 +67,7 @@ clear : both;
 		<hr>
 		
 		<p>학생정보</p>
+		<image >
 		<table class="table">
 				
 				<tbody>
@@ -68,14 +76,64 @@ clear : both;
 							이름
 						</th>
 						<td>
-							TB - Monthly
+							최철녕
 						</td>
+						<th>
+							학년
+						</th>
 						<td>
-							01/04/2012
+							4
 						</td>
+						<th>
+							이메일
+						</th>
 						<td>
-							Default
+							ccnyeong@metanet.co.kr
 						</td>
+					</tr>
+					<tr>
+						<th>
+							학과
+						</th>
+						<td>
+							미디어학과
+						</td>
+						<th>
+							입학일자
+						</th>
+						<td>
+							2012
+						</td>
+						<th>
+							생년월일
+						</th>
+						<td>
+							931013
+						</td>	
+					</tr>
+					<tr>
+						<th>주소</th>
+						<td colspan="5">경기도 고양시 일산서구 고양대로 685(현대홈타운 1차) 105동 1001호</td>
+					</tr>
+					<tr>
+						<th>
+							학적상태
+						</th>
+						<td>
+							재학
+						</td>
+						<th>
+							주전공
+						</th>
+						<td>
+							디지털미디어
+						</td>
+						<th>
+							부전공
+						</th>
+						<td>
+							
+						</td>	
 					</tr>
 					
 				</tbody>
