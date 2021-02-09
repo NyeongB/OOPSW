@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>전체 시간표 조회</title>
+<title>성적조회</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 <style>
@@ -34,13 +34,7 @@ hr {
 				
 				<br>
 				<hr>
-				<div>
-				<button type="button" class="btn btn-primary">전공과목</button>
-				<button type="button" class="btn btn-primary">교양과목</button>
-				<button type="button" class="btn btn-primary">타학과과목</button>
-				<a href="03_subjects.jsp"><button type="button" class="btn btn-primary">전체 시간표</button></a>
-				<a href="04_my_subjects.jsp"><button type="button" class="btn btn-primary">신청과목 조회</button></a>
-				</div>
+				
 				
 				
 				<p class="lead" style="text-align: right;">2020년 1학기</p>
@@ -51,73 +45,65 @@ hr {
 				<table class="table table-bordered">
 					<thead>
 						<tr>
-							<th>학년</th>
-							<th>이수구분</th>
 							<th>과목코드</th>
 							<th>과목명</th>
-							<th>교수</th>
+							<th>성적</th>
 							<th>학점</th>
-							<th>교시</th>
-							<th>강의실</th>
-							<th></th>
+							<th>이수구분</th>
+							<th>교수</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
+							<td>A-001</td>
+							<td>컴퓨터 구조</td>
+							<td>A0</td>
 							<td>3</td>
 							<td>전공필수</td>
-							<td>A-001</td>
-							<td>데이터베이스</td>
 							<td>김병희</td>
-							<td>3</td>
-							<td>월23</td>
-							<td>팔달관 401호</td>
-							<td><button type="button" class="btn">신청</button></td>
 						</tr>
-
 					</tbody>
 					<tbody>
 						<tr>
+							<td>A-002</td>
+							<td>운영체제</td>
+							<td>B0</td>
 							<td>3</td>
 							<td>전공필수</td>
-							<td>A-001</td>
-							<td>데이터베이스</td>
 							<td>김병희</td>
-							<td>3</td>
-							<td>월23</td>
-							<td>팔달관 401호</td>
-							<td><button type="button" class="btn">신청</button></td>
 						</tr>
-
 					</tbody>
 					<tbody>
 						<tr>
+							<td>A-003</td>
+							<td>객체지향 프로그래밍</td>
+							<td>B+</td>
 							<td>3</td>
-							<td>전공필수</td>
-							<td>A-001</td>
-							<td>데이터베이스</td>
-							<td>김병희</td>
-							<td>3</td>
-							<td>월23</td>
-							<td>팔달관 401호</td>
-							<td><button type="button" class="btn">신청</button></td>
+							<td>전공선택</td>
+							<td>조동일</td>
 						</tr>
-
 					</tbody>
 					<tbody>
 						<tr>
+							<td>A-004</td>
+							<td>컴퓨터 네트워크</td>
+							<td>B+</td>
+							<td>3</td>
+							<td>교양필수</td>
+							<td>조동일</td>
+						</tr>
+					</tbody>			
+					<tbody>
+						<tr>
+							<td>A-005</td>
+							<td>알고리즘</td>
+							<td>B0</td>
 							<td>3</td>
 							<td>전공필수</td>
-							<td>A-001</td>
-							<td>데이터베이스</td>
-							<td>김병희</td>
-							<td>3</td>
-							<td>월23</td>
-							<td>팔달관 401호</td>
-							<td><button type="button" class="btn">신청</button></td>
+							<td>최철녕</td>
 						</tr>
-
-					</tbody>
+					</tbody>												
+									
 				</table>
 				</div>
 				

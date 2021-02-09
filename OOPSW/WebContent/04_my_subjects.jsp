@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>전체 시간표 조회</title>
+<title>신청과목 조회</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 <style>
@@ -72,7 +72,7 @@ hr {
 							<td>3</td>
 							<td>월23</td>
 							<td>팔달관 401호</td>
-							<td><button type="button" class="btn">신청</button></td>
+							<td><button type="button" class="btn">삭제</button></td>
 						</tr>
 
 					</tbody>
@@ -86,7 +86,7 @@ hr {
 							<td>3</td>
 							<td>월23</td>
 							<td>팔달관 401호</td>
-							<td><button type="button" class="btn">신청</button></td>
+							<td><button type="button" class="btn">삭제</button></td>
 						</tr>
 
 					</tbody>
@@ -100,7 +100,7 @@ hr {
 							<td>3</td>
 							<td>월23</td>
 							<td>팔달관 401호</td>
-							<td><button type="button" class="btn">신청</button></td>
+							<td><button type="button" class="btn">삭제</button></td>
 						</tr>
 
 					</tbody>
@@ -114,7 +114,7 @@ hr {
 							<td>3</td>
 							<td>월23</td>
 							<td>팔달관 401호</td>
-							<td><button type="button" class="btn">신청</button></td>
+							<td><button type="button" class="btn">삭제</button></td>
 						</tr>
 
 					</tbody>

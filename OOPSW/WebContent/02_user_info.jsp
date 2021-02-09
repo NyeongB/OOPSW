@@ -1,48 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	
+<title>학생정보 조회</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
 <style>
 .login {
 text-align: right;
 
 }
 
-header nav {
-	float: left;
-	display : inline;
-	margin-top: 50px;
-	
-}
 
-header nav ul {
-	list-style-type: none;
-}
-
-header nav ul li {
-	display: inline;
-	float: left;
-	font-size : 40px;
-	padding-right: 20px;
-	font-weight: bold;
-}
 
 hr {
 clear : both;
 }
 
-.table{
-	
-}
-th, td {
-	
-}
+
 </style>
 </head>
 <body>
@@ -53,18 +29,11 @@ th, td {
 		</div>
 		<div class="col-md-8">
 		
-		<header>
-			<nav>
-				<ul>
-					<li><a href="">회원정보</a></li>
-					<li><a href="">수간신청</a></li>
-					<li><a href="">성적</a></li>
-					<li><a href="">로그인</a></li>
-				</ul>
-			</nav>
-		</header>
-		<br>
-		<hr>
+		<jsp:include page="00_nav.jsp"></jsp:include>
+				
+				
+				<br>
+				<hr>
 		
 		<p>학생정보</p>
 		<image >
